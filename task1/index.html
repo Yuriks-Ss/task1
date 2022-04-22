@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Git</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+        a {margin-right: 15px;}
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col s12 center"><h2>Git repos</h2></div>
+
+        <form action="" id="MyForm">
+            <div class="input-field col s12">
+                <input id="search" type="text" class="validate" placeholder="User Name">
+                <label class="active" for="search">Enter Data</label>
+            </div>
+            <div class="col s12">
+                <button class="btn waves-effect wave-light col s12" type="submit" name="action">
+                    Submit
+                </button>
+            </div>
+        </form>
+        <div class="col" id="result">
+            <div>
+                <h2>Repositories info</h2>
+            </div>
+        </div>
+        <div class="col s12">
+            <div>
+                <main id="main"></main>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
